@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="dolphin_blue">#711fff</color>
+    <color name="dolphin_blue_dark">#621fff</color>
+    <color name="dolphin_purple">#651fff</color>
+
+    <color name="circle_grey">#bdbdbd</color>
+    <color name="light_grey">#e6e6e6</color>
+
+    <!-- 12% black in LIGHT THEME -->
+    <color name="nnf_light_separator_color">#1e000000</color>
+    <!-- 12% white in BLACK THEME -->
+    <color name="nnf_dark_separator_color">#1effffff</color>
+
+</resources>
