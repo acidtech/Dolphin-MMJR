@@ -101,6 +101,10 @@ public final class SettingsFragmentPresenter
         addGraphicsSettings(sl);
         break;
 
+			case CUSTOM_TEXTURES:
+				addCustomTexturesSettings(sl);
+				break;
+
       case GCPAD_TYPE:
         addGcPadSettings(sl);
         break;
@@ -424,6 +428,7 @@ public final class SettingsFragmentPresenter
     sl.add(new SingleChoiceSetting(SettingsFile.KEY_INTERNAL_RES, Settings.SECTION_GFX_SETTINGS,
       R.string.internal_resolution, R.string.internal_resolution_description,
       R.array.internalResolutionEntries, R.array.internalResolutionValues, 100, resolution));
+		sl.add(new SubmenuSetting(null, null, R.string.custom_textures, 0, MenuTag.CUSTOM_TEXTURES));
     sl.add(new SingleChoiceSetting(SettingsFile.KEY_FSAA, Settings.SECTION_GFX_SETTINGS,
       R.string.FSAA, R.string.FSAA_description, R.array.FSAAEntries, R.array.FSAAValues, 1,
       fsaa));
@@ -461,6 +466,22 @@ public final class SettingsFragmentPresenter
             R.string.wide_screen_hack, R.string.wide_screen_hack_description, false,
             wideScreenHack));
   }
+
+	private void addCustomTexturesSettings(ArrayList<SettingsItem> sl)
+	{
+		SettingSection gfxSection = mSettings.getSection(Settings.SECTION_GFX_SETTINGS);
+		Setting CustomTextures = gfxSection.getSetting(SettingsFile.CUSTOM_TEXTURES);
+		Setting CacheCustomTextures = gfxSection.getSetting(SettingsFile.CACHE_CUSTOM_TEXTURES);
+
+		sl.add(new CheckBoxSetting(SettingsFile.CUSTOM_TEXTURES, Settings.SECTION_GFX_SETTINGS,
+			R.string.load_HiresTextures, R.string.load_HiresTextures_description, false,
+			CustomTextures));
+
+		sl.add(new CheckBoxSetting(SettingsFile.CACHE_CUSTOM_TEXTURES, Settings.SECTION_GFX_SETTINGS,
+			R.string.cache_custom_textures, R.string.cache_custom_textures_description, false,
+			CacheCustomTextures));
+
+	}
 
   private String capitalize(String text)
   {

@@ -14,6 +14,7 @@ public enum MenuTag
   GCPAD_TYPE("gc_pad_type"),
   GRAPHICS("graphics"),
   HACKS("hacks"),
+	CUSTOM_TEXTURES("custom_textures"),
   DEBUG("debug"),
   ENHANCEMENTS("enhancements"),
   GCPAD_1("gcpad", 0),

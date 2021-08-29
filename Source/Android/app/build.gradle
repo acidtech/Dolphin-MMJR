@@ -54,7 +54,7 @@ android {
             applicationIdSuffix ".debug"
             versionNameSuffix '-debug'
             jniDebuggable true
-            signingConfig signingConfigs.release
+
         }
     }
 

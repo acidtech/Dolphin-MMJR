@@ -71,6 +71,8 @@ public final class SettingsFile
   public static final String KEY_SCALED_EFB = "EFBScaledCopy";
   public static final String KEY_PER_PIXEL = "EnablePixelLighting";
   public static final String KEY_FORCE_FILTERING = "ForceFiltering";
+	public static final String CUSTOM_TEXTURES = "HiresTextures";
+	public static final String CACHE_CUSTOM_TEXTURES = "CacheHiresTextures";
   public static final String KEY_DISABLE_FOG = "DisableFog";
   public static final String KEY_DISABLE_COPY_FILTER = "DisableCopyFilter";
   public static final String KEY_ARBITRARY_MIPMAP_DETECTION = "ArbitraryMipmapDetection";

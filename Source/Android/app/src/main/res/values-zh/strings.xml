@@ -3,7 +3,7 @@
 
     <!-- Title of the app -->
     <string name="app_name">Dolphin |MMJR|</string>
-    <string name="app_name_version">Dolphin |MMJR| v11460</string>
+    <string name="app_name_version">Dolphin |MMJR| - 11460</string>
     <string name="host">app</string>
     <string name="scheme">dolphinemu</string>
 
@@ -390,5 +390,12 @@
     <string name="pitch">上下倾斜</string>
     <string name="yaw">左右摇摆</string>
     <string name="vertical_offset">垂直偏移</string>
+
+    <!-- Custom Textures -->
+    <string name="custom_textures">Custom Textures</string>
+    <string name="load_HiresTextures">Load Custom Textures</string>
+    <string name="load_HiresTextures_description">Load Hires PNG Textures for a game</string>
+    <string name="cache_custom_textures">Prefetch Custom Textures</string>
+    <string name="cache_custom_textures_description">Preload custom textures into RAM</string>
 
 </resources>

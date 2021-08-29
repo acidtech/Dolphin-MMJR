@@ -3,7 +3,7 @@
 
     <!-- Title of the app -->
     <string name="app_name">Dolphin |MMJR|</string>
-    <string name="app_name_version">Dolphin |MMJR| v11460</string>
+    <string name="app_name_version">Dolphin |MMJR| - 11460</string>
     <string name="host">app</string>
     <string name="scheme">dolphinemu</string>
 
@@ -273,7 +273,7 @@
 
     <!-- Add Directory Screen-->
     <string name="toggle_list">Toggle List</string>
-    <string name="add_directory_title">Add Folder to Library</string>
+    <string name="add_directory_title">Add Game Folder</string>
     <string name="add_directory_up_one_level">Up one level</string>
     <string name="add_directory_empty_folder">That folder is empty.</string>
 
@@ -305,7 +305,7 @@
     <string name="emulation_toggle_controls">Toggle Controls</string>
     <string name="emulation_toggle_all">Toggle All</string>
     <string name="emulation_control_scale">Adjust Scale</string>
-    <string name="emulation_control_alpha">Adujst Opacity</string>
+    <string name="emulation_control_alpha">Adjust Opacity</string>
     <string name="emulation_control_reset_layout">Reset Layout</string>
     <string name="emulation_control_joystick_rel_center">Relative Stick Center</string>
     <string name="emulation_control_rumble">Rumble</string>
@@ -390,5 +390,13 @@
     <string name="pitch">Total Pitch</string>
     <string name="yaw">Total Yaw</string>
     <string name="vertical_offset">Vertical Offset</string>
+
+    <!-- Custom Textures -->
+    <string name="custom_textures">Custom Textures</string>
+    <string name="load_HiresTextures">Load Custom Textures</string>
+    <string name="load_HiresTextures_description">Load Hires PNG Textures for a game</string>
+    <string name="cache_custom_textures">Prefetch Custom Textures</string>
+    <string name="cache_custom_textures_description">Preload custom textures into RAM</string>
+
 
 </resources>

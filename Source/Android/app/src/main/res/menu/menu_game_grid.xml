@@ -6,19 +6,19 @@
         android:id="@+id/menu_add_directory"
         android:title="@string/add_directory_title"
         android:icon="@drawable/ic_add"
-        app:showAsAction="ifRoom"/>
-
-    <item
-        android:id="@+id/menu_toggle_list"
-        android:title="@string/toggle_list"
-        android:icon="@drawable/ic_settings_graphics"
-        app:showAsAction="ifRoom"/>
+        app:showAsAction="never"/>
 
     <item
         android:id="@+id/menu_settings_core"
         android:title="@string/preferences_settings"
         android:icon="@drawable/ic_settings"
-        app:showAsAction="never"/>
+        app:showAsAction="always"/>
+
+    <item
+        android:id="@+id/menu_toggle_list"
+        android:title="@string/toggle_list"
+        android:icon="@drawable/ic_settings_graphics"
+        app:showAsAction="always"/>
 
     <item
         android:id="@+id/menu_settings_gcpad"
